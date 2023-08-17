@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Snake</title>
+
+        <style>
+            body {
+                background: #AAA;
+            }
+            
+            #canvas {
+                background-color: black;
+            }
+        </style>
+    </head>
+
+    <body>
+        <canvas id="canvas" width="600" height="600"> </canvas> <br>
+
+        <button onclick="help();"> Help </button>
+
+        <script>
+            function help() {
+                alert("Win by collecting all the fruits and controlling the snake with the arrow keys. Be careful though, because if you hit a wall or run into yourself the game is over");
+            }
+        </script>
+
+        <a href="../mysite.html"> Back To My Website </a>
+
+        <script src="Snake_Functions.js"></script>
+        <script src="Snake.js"></script>
+    </body>
+</html>
